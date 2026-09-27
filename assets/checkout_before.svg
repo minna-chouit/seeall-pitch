@@ -1,0 +1,21 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Checkout mockup before fixes</title>
+  <desc id="d1">A checkout form on white with light grey low-contrast text and two icon-only buttons with no visible labels.</desc>
+  <rect width="640" height="400" fill="#F4F5F7"/>
+  <rect x="40" y="32" width="220" height="18" rx="4" fill="#C9CDD4"/>
+  <rect x="40" y="80" width="560" height="1" fill="#E2E4E8"/>
+  <rect x="40" y="110" width="120" height="12" rx="3" fill="#B7BCC4"/>
+  <rect x="40" y="130" width="560" height="42" rx="8" fill="#FFFFFF" stroke="#E2E4E8"/>
+  <rect x="56" y="146" width="180" height="10" rx="3" fill="#C9CDD4"/>
+  <rect x="40" y="190" width="120" height="12" rx="3" fill="#B7BCC4"/>
+  <rect x="40" y="210" width="560" height="42" rx="8" fill="#FFFFFF" stroke="#E2E4E8"/>
+  <rect x="56" y="226" width="130" height="10" rx="3" fill="#C9CDD4"/>
+  <rect x="40" y="270" width="170" height="12" rx="3" fill="#CBCFD6"/>
+  <circle cx="470" cy="300" r="24" fill="#EDEEF1"/>
+  <path d="M462 300h16M470 292v16" stroke="#C9CDD4" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="540" cy="300" r="24" fill="#EDEEF1"/>
+  <path d="M530 300h20M540 290l10 10-10 10" stroke="#C9CDD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="40" y="340" width="180" height="36" rx="18" fill="#DCE0E6"/>
+  <rect x="62" y="353" width="120" height="10" rx="3" fill="#B7BCC4"/>
+  <text x="600" y="392" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#AEB4BD">score 0/100</text>
+</svg>
