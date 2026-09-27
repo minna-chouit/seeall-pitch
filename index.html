@@ -301,7 +301,7 @@
       <div class="grid grid-3">
         <div class="glass"><div class="stat" data-count="148">0</div><p class="stat-label">automated tests.</p></div>
         <div class="glass"><div class="stat">16 <span style="font-size:1.2rem;">screens</span></div><p class="stat-label">real screens tested, 4 in Arabic.</p></div>
-        <div class="glass"><div class="stat" id="latency-stat">LATENCY</div><p class="stat-label">audit time.</p></div>
+        <div class="glass"><div class="stat" id="latency-stat" style="font-size:clamp(1.8rem,3.6vw,2.6rem);">LATENCY</div><p class="stat-label" id="latency-caption">audit time.</p></div>
       </div>
       <p style="margin-top:1.5rem; font-weight:600; color:var(--text-heading); max-width:640px;">We disabled a check that produced 37 false positives rather than mislead designers.</p>
     </div>
@@ -357,7 +357,8 @@
   const VIDEO_URL = "#";
   const REPO_URL = "https://github.com/minna-chouit/goMyCodeChallenge";
   const TEAM_NAME = "Minet Ellah Chouit";
-  const LATENCY = "~5–40s (typically < 10s)";
+  const LATENCY = "< 10s";
+  const LATENCY_CAPTION = "typical audit time (up to 40s worst case).";
   // ------------------------
 
   document.getElementById('app-link').href = APP_URL;
@@ -367,6 +368,7 @@
   document.getElementById('repo-link').href = REPO_URL;
   document.getElementById('team-name').textContent = TEAM_NAME;
   document.getElementById('latency-stat').textContent = LATENCY;
+  document.getElementById('latency-caption').textContent = LATENCY_CAPTION;
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const sections = Array.from(document.querySelectorAll('main > section'));
